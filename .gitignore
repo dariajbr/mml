@@ -1,0 +1,24 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Local editors and operating systems
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.obsidian/workspace*
+.obsidian/cache
+
+# Temporary ingestion and verification data
+.tmp/
+temp/
